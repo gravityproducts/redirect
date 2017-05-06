@@ -1,16 +1,33 @@
 <html>
 <head>
 
-	<!– Facebook Pixel Code –>
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+				document,'script','https://connect.facebook.net/en_US/fbevents.js');
+				fbq('init', '286353685112848'); // Insert your pixel ID here.
+				fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=286353685112848&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- DO NOT MODIFY -->
+	<!-- End Facebook Pixel Code -->
+	<script>
+		fbq('track', 'GravityClk');
+	</script>
+	<!-- End Facebook Pixel Code-->
 
-	<!– End Facebook Pixel Code –>
-
-	<!– Redirect to Kickstarter –>
 	<title>Gravity Blanket</title>
 	<meta name="referrer" content="origin">
 	<script>
-		var url = 'https://www.kickstarter.com/projects/1620645203/gravity-the-weighted-blanket-for-sleep-stress-and'+ document.location.search;
-		window.location = url;
+		var url = 'https://www.kickstarter.com/projects/1620645203/gravity-the-weighted-blanket-for-sleep-stress-and' + document.location.search;
+		setTimeout(function(){
+			window.location = url;
+		}, 300);
 	</script>
 	<noscript>
 		<meta http-equiv="refresh" content="0;URL=http://kickstarter.com/projects/1620645203/gravity-the-weighted-blanket-for-sleep-stress-and" />
